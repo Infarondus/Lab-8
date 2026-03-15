@@ -1,8 +1,6 @@
 import cv2
 import numpy as np
 
-import cv2
-
 class ImageResizer:
     def __init__(self, image_path, scale_factor):
         self.image_path = image_path
